@@ -9,7 +9,7 @@ const execute = (bot, msg, args) => {
 };
 
     module.exports = {
-        name: "rules01",
+        name: "rulesheader",
         help: "Retorna uma Messagem de aviso",
         execute,
       };
