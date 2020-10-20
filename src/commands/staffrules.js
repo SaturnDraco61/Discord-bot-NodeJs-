@@ -14,8 +14,6 @@ const execute = (bot, msg, args) => {
 };
 
 
-
-
     module.exports = {
         name: "aviso",
         help: "Retorna uma Messagem de aviso",
