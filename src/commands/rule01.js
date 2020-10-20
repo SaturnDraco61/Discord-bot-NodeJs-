@@ -3,7 +3,7 @@ const MessageEmbed = require("discord.js").MessageEmbed;
 const execute = (bot, msg, args) => {
     const embed = new MessageEmbed()
     .setColor("0x410000")
-    .setTitle('Regras do server;')
+    .setTitle('Regras do server - Administração;')
     .setDescription("Leia atentamente as regras do servidor e as siga, caso contrário você será expulso do torneio!")
     .addFields(
         { name: '(1) ➥', value: 'Denúncias sem fundamentos não serão aceitadas. (Deve-se haver provas, como prints ou gravações)'},
@@ -13,9 +13,8 @@ const execute = (bot, msg, args) => {
     msg.channel.send({ embed });
 };
 
-
     module.exports = {
-        name: "aviso",
+        name: "rules01",
         help: "Retorna uma Messagem de aviso",
         execute,
       };
