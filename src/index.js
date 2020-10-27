@@ -28,7 +28,7 @@ bot.login(process.env.TOKEN); // login com o token
 
 
 bot.on("ready", function () {
-  bot.user.setActivity('Em manutenção');
+  bot.user.setActivity('Apenas mensagens | by: Robin');
    console.log(`Estou conectado como ${bot.user.username}`);
  });
 
