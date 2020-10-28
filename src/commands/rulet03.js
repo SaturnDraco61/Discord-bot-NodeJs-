@@ -3,8 +3,6 @@ const MessageEmbed = require("discord.js").MessageEmbed;
 const execute = (bot, msg, args) => {
     const embed = new MessageEmbed()
     .setColor("0x410000")
-    .setTitle('Regras do server - Administração;')
-    .setDescription("Leia atentamente as regras do servidor e as siga, caso contrário você será expulso do torneio!")
     .addFields(
         { name: 'Note - Regras do Capitão ➥', value: 'Todas as equipes devem escolher um jogador para desempenhar o papel de capitão da equipe. Os capitães representarão a equipe perante os oficiais do torneio. Além das responsabilidades comuns a todos os jogadores, os capitães devem:'},
         { name: '(1) ➥', value: 'Comunicar-se com os oficiais do torneio em nome da equipe.' },
