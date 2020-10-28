@@ -26,16 +26,11 @@ console.log(bot.commands); // fim da conexão com os comandos
 bot.login(process.env.TOKEN); // login com o token
 
 
-
+// verificação do status do servidor 
 bot.on("ready", function () {
   bot.user.setActivity('Apenas mensagens | by: Robin');
    console.log(`Estou conectado como ${bot.user.username}`);
  });
-
-
-
-  //Verificação de status do servidor
-
 
 
   // carregamento do prefix

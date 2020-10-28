@@ -9,7 +9,7 @@ const execute = (bot, msg, args) => {
 };
 
     module.exports = {
-        name: "funheader",
+        name: "regrasheader",
         help: "Retorna uma foto de sobre as regras",
         execute,
       };
