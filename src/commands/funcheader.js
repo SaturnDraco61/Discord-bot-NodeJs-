@@ -3,7 +3,7 @@ const MessageEmbed = require("discord.js").MessageEmbed;
 const execute = (bot, msg, args) => {
     const embed = new MessageEmbed()
     .setColor("0x27363E")
-    .setImage('https://i.ibb.co/Gs0BHYw/regras-Torneio.png')
+    .setImage('https://i.ibb.co/ZmF3W4H/Regulamentotorneio.png')
     .setFooter('Robin & YongFree');
     msg.channel.send({ embed });
 };
